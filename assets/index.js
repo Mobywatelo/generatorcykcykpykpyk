@@ -139,6 +139,7 @@ function isEmpty(value){
 
 function forwardToId(params){
     window.location.href = "id.html?" + params.toString();
+    
 }
 
 var guide = document.querySelector(".guide_holder");
